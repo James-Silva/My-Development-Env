@@ -1,0 +1,5 @@
+### Fixing mouse issue ###
+
+- add usbhid.mousepoll=0 to /boot/cmdline.txt
+
+### 

@@ -9,28 +9,32 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-" Asthetics and Use "
+ "Asthetics and Use "
 Plugin 'tpope/vim-sensible' " allegedly sensible defaults that I do not understand (Some repeats)
 Plugin 'preservim/nerdcommenter' " better commenting
 Plugin 'Raimondi/delimitMate' " insert mode auto-completion for quotes, parens, brackets, etc.
 Plugin 'vim-airline/vim-airline' " adds a powerline to the bottom and top of vim
 Plugin 'vim-airline/vim-airline-themes' " adds different themes for the powerline
-Plugin 'simeji/winresizer' " better window resizing
+Plugin 'simeji/winresizer' " better window resizing using CTRL+E and h, j, k,or l
+Plugin 'flazz/vim-colorschemes' " vim colorschemes 
 
 " Fanciness "
-Plugin 'xolox/vim-misc' " required for xolox/vim-session
-Plugin 'thaerkh/vim-workspace' " automated vim sessions
+Plugin 'thaerkh/vim-workspace' " automated vim sessions using <leader>s
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } } "Need for fzf.vim; fzf#install() makes sure that you have the latest binary
 Plugin 'junegunn/fzf.vim' " bundle of fzf-based commands and mappings
-" Plugin 'ycm-core/YouCompleteMe' " (Not configured yet) code completion engine for vim
+Plugin 'vim-syntastic/syntastic' " syntax checker
+" Plugin 'ycm-core/YouCompleteMe' " code completion engine for vim
 Plugin 'preservim/nerdtree' " adds a file explorer window
-" Plugin 'ludovicchabant/vim-gutentags' " (Not sure if I need it) vim plugin to manage tag files
 Plugin 'majutsushi/tagbar' 
+" Plugin 'ludovicchabant/vim-gutentags' " (Not sure if I need it) vim plugin to manage tag files
 Plugin 'airblade/vim-gitgutter' " git diff tool
 Plugin 'tpope/vim-fugitive' " git wrapper tool
 
 call vundle#end()
 filetype plugin indent on    " required by Vundle 
+
+"=== Set Colorscheme ==="
+colorscheme monokai-chris
 
 "=== Spaces and Tabs ==="
 set backspace=indent,eol,start " make backspace work like other programs
@@ -100,8 +104,7 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 " automatically displays all buffers when there's only one tab open
 let g:airline#extensions#tabline#enabled=1 
 let g:airline_powerline_fonts=1   " needed to use fancy symbols like arrows
-let g:airline_theme='solarized'   " set theme to solarized (Defaults to light)
-" let g:airline_solarized_bg='dark' " setting needed to use dark solarized scheme
+let g:airline_theme='deus'   " set theme to solarized (Defaults to light)
 
 "=== majutsushi/tagbar ==="
 nmap <leader>t :TagbarToggle<CR>

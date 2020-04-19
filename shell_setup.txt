@@ -1,0 +1,27 @@
+### Find Consol Colors ###
+- https://mayccoll.github.io/Gogh/
+
+### Setup fish ###
+- sudo apt install fish
+
+- Add the fish shell /usr/local/bin/fish to /etc/shells with:
+> echo /usr/local/bin/fish | sudo tee -a /etc/shells
+
+- Change your default shell to fish with:
+> chsh -s /usr/local/bin/fish
+
+- install oh-my-fish: https://github.com/oh-my-fish/oh-my-fish 
+> ofm install agnoster; ofm theme agnoster
+
+### Setup Commmon Aliases ### 
+- alias update='sudo apt update ; sudo apt -y upgrade ; sudo apt -y dist-upgrade; sudo apt autoremove -y'
+
+- alias python='python3'
+
+- alias ev='vim ~/.vimrc'
+
+### Cowsay Fortune ###
+
+- Add to bottom: fortune | cowsay
+
+
