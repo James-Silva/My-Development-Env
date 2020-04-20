@@ -1,5 +1,41 @@
+### Setting up github ###
+
+- https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh 
+
+- clone My-Development_Env and follow setup guides
+
 ### Fixing mouse issue ###
 
 - add usbhid.mousepoll=0 to /boot/cmdline.txt
 
-### 
+### Overclock Raspberry PI ###
+
+- In /boot/config.txt:
+  over_voltage=6
+  arm_freq=2000
+  gpu_freq=750
+
+### Set up from Raspbian Lite ###
+
+- [GUIDE] Raspbian Lite with RPD/LXDE/XFCE/MATE/i3/Openbox/X11 GUI
+  https://www.raspberrypi.org/forums/viewtopic.php?t=133691
+
+### Set up from Ubuntu Mate ###
+
+- Steps for Configuring Mate Desktop on 4GB Raspberry Pi 4:
+  https://www.raspberrypi.org/forums/viewtopic.php?t=260974
+
+- Desktop Set-Up:
+  - Choose a new wallpaper
+  - Set Font to be Ubuntu Regular
+  - Swap ESC and CAPs-Lock
+  - Choose Theme and Icons: Arc-Dark and Numix Circle are good
+  - Customize top panel
+  - Add plank dock (sudo apt instal plank) and add to startup applications
+  - Add keyboard shortcuts:
+    Better move windows (Super-Left/Right -> Set Window East/West)
+    Set maximize and Restore window to Super-Up and Super-Down
+
+### Remove Chromium System Toolbar ### 
+
+- Settings -> Apperance -> Use system title bar and borders

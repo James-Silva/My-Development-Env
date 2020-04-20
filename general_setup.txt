@@ -1,5 +1,0 @@
-
-### Set ESC to CAPSLOCK ### 
-
-- Ubuntu: Tweaks -> Keyboard & Mouse -> Additional Layout Options
-

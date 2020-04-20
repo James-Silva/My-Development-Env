@@ -1,3 +1,6 @@
+### Set up Vundle ###
+- git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+- :PluginInstall
 
 ### Look for vim themes ###
-https://bytefluent.com/vivify/
+- https://bytefluent.com/vivify/
