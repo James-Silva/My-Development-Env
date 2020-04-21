@@ -12,4 +12,5 @@ curl -L https://get.oh-my.fish | fish
 sudo apt-get install fonts-powerline
 omf install agnoster; omf theme agnoster
 
+sudo apt install cowsay fortune
 cp config.fish ~/.config/fish/
