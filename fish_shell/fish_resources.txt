@@ -1,0 +1,6 @@
+### Find Console Colors ###
+- https://mayccoll.github.io/Gogh/
+  To install: bash -c  "$(wget -qO- https://git.io/vQgMr)" 
+  RaspberryPi Bug Workaround: https://github.com/Mayccoll/Gogh/issues/63
+
+
