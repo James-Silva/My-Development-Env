@@ -14,3 +14,7 @@ omf install agnoster; omf theme agnoster
 
 sudo apt install cowsay fortune
 cp config.fish ~/.config/fish/
+
+# Enable Vi-Bindings
+fish_vi_key_bindings
+
