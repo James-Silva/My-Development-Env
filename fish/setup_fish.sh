@@ -1,7 +1,7 @@
 # Setup fish
 sudo apt install fish curl -y
 
-cp config.fish ~/.config/fish/
+cp fish/config.fish ~/.config/fish/
 
 # Add the fish shell /usr/local/bin/fish to /etc/shells with if it's not there:
 # echo /usr/bin/fish | sudo tee -a /etc/shells

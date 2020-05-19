@@ -1,5 +1,3 @@
-# Execute commands in fish
-
 sudo apt install fonts-powerline cowsay fortune -y
 
 omf install agnoster
