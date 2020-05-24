@@ -1,4 +1,5 @@
-sudo apt install fonts-powerline cowsay fortune -y
+# Setup fish
+cp fish/config.fish ~/.config/fish/
 
 omf install agnoster
 omf theme agnoster
