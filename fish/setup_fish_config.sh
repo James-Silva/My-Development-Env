@@ -1,4 +1,4 @@
-# Setup fish
+# Setup fish (must be run from fish shell)
 cp fish/config.fish ~/.config/fish/
 
 omf install agnoster

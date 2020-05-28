@@ -1,11 +1,10 @@
-pkgMan="dnf"
+pkgMan="apt" #TODO: Make this argument so it can be chosen from setup.sh
 
 sudo $pkgMan install \
-	vim \
+	neovim \
 	fish \
-	git \
     curl \
     cowsay \
-    fortune
-
-# fonts-powerline
+    fortune \
+    fonts-powerline \
+    -y
