@@ -1,4 +1,4 @@
-# Sample-Development-Env
+# Setup-Development-Env
 
 ##Usage:
 sudo apt install git
