@@ -1,9 +1,9 @@
 # Setup-Development-Env
 
-##Usage:
+## Usage:
 sudo apt install git
 git clone https://github.com/James-Silva/dev-environment.git
 source setup.sh
 
-##Other:
+## Other:
 Set CapsLock to Esc
