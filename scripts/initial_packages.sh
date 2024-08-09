@@ -1,17 +1,15 @@
-pkgMan="apt" #TODO: Make this argument so it can be chosen from setup.sh
+pkgMan="apt"
 
 sudo $pkgMan install \
-    neovim \
-    fish \
     curl \
+    wget \
     cowsay \
     fortune \
     fonts-powerline \
-    nodejs \
     fzf \
-	ranger \
-	fd-find \
-	silversearcher-ag \
-	ripgrep \
-	bat \
+    ranger \
+    fd-find \
+    silversearcher-ag \
+    ripgrep \
+    bat \
     -y
