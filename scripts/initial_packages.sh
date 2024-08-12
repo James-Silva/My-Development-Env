@@ -12,4 +12,9 @@ sudo $pkgMan install \
     silversearcher-ag \
     ripgrep \
     bat \
+	tldr \
     -y
+
+# Install the latest fish shell
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt install fish -y
